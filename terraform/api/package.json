@@ -1,0 +1,10 @@
+{
+    "name": "mi-app-node",
+    "version": "1.0.0",
+    "description": "Aplicación Node.js con Docker",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {}
+  }
