@@ -1,5 +1,5 @@
 # Prueba final Desafiolatam Curso Devops
-[![Docker Build](https://github.com/amurpo/pruebafinal-desafiolatam-cursodevops/actions/workflows/deploy.yml/badge.svg?branch=main&event=push&job=docker-build-push)](https://github.com/amurpo/pruebafinal-desafiolatam-cursodevops/actions/workflows/deploy.yml) [![Security Scan](https://github.com/amurpo/pruebafinal-desafiolatam-cursodevops/actions/workflows/deploy.yml/badge.svg?branch=main&event=push&job=security-scan)](https://github.com/amurpo/pruebafinal-desafiolatam-cursodevops/actions/workflows/deploy.yml) [![Terraform Deploy](https://github.com/amurpo/pruebafinal-desafiolatam-cursodevops/actions/workflows/deploy.yml/badge.svg?branch=main&event=push&job=terraform-deploy)](https://github.com/amurpo/pruebafinal-desafiolatam-cursodevops/actions/workflows/deploy.yml)
+[![Curso Devops-Prueba final](https://github.com/amurpo/pruebafinal-desafiolatam-cursodevops/actions/workflows/deploy.yml/badge.svg?branch=main&event=push&job=docker-build-push)](https://github.com/amurpo/pruebafinal-desafiolatam-cursodevops/actions/workflows/deploy.yml) 
 
 Este proyecto utiliza GitHub Actions para automatizar el proceso de construcción, escaneo de seguridad y despliegue de una aplicación en AWS.
 
