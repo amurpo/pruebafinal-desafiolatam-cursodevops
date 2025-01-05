@@ -21,6 +21,7 @@ env:
 
 jobs:
   docker-build-push:
+    name: Docker Build & Push
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -75,6 +76,7 @@ jobs:
           mv /tmp/.buildx-cache-new /tmp/.buildx-cache
 
   security-scan:
+    name: Security Scan
     needs: [docker-build-push]
     runs-on: ubuntu-latest
     permissions:
@@ -127,6 +129,7 @@ jobs:
           snyk iac monitor terraform/ || true
 
   terraform-deploy:
+    name: Terraform Deploy
     needs: [docker-build-push, security-scan]
     runs-on: ubuntu-latest
     permissions:
